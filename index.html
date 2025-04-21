@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/Favicon.svg" type="image/x-icon" />
+    <title>Ange Bohorquez R</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Ange Bohorquez R</p>
+            <nav>
+                <a href="#sobre-mi">Quien Soy</a>
+                <a href="#platos-favoritos">Comida Favorita</a>
+                <a href="#mis-hobbies">Hobbies</a>
+                <a href="#contacto">Compartir conocimiento</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <h1>"La felicidad verdadera no está en el tener, <br> sino en el SER"</h1>
+        <button> - Marian Rojas</button>
+    </section>
+
+    <section id="sobre-mi">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+            <h2>Soy <span class="color-acento">Angelica Bohorquez Rozo</span></h2>
+            <p>Soy una persona inteligente y curiosa, siempre en busca de aprender cosas nuevas y de plantearme retos que pongan a prueba mis capacidades. Aunque tiendo a ser algo tímida, disfruto muchísimo compartiendo con mi familia y mis amigos. Me caracterizo por mi tranquilidad, pero también por un sentido del humor sutil que aflor‌a en el momento justo. Además, me encanta descubrir nuevos restaurantes, disfrutar de una buena comida y de saborear cócteles creativos.</p>
+        </div>
+    </div>
+    </section>
+
+     <section id="platos-favoritos">
+        <div class="container">
+             <h2>Mi comida Favorita</h2>
+             <div class="recetas">
+                <div class="carta">
+                    <h3>Pad Thai</h3>
+                    <p>Originario de Tailandia, consiste en fideos de arroz salteados en un wok, generalmente con huevo, salsa de pescado, pasta de tamarindo, y una variedad de ingredientes como brotes de soja, camarones, pollo, cacahuetes y verduras.</p>
+                    <button>Quiero receta</button>
+                </div>
+                <div class="carta">
+                    <h3>Perro Caliente</h3>
+                    <p>Un "hot dog" o "perrito caliente" es un bocadillo que, en su forma más básica, consiste en una salchicha servida en el interior de un pan alargado, generalmente acompañada de diversos condimentos y aderezos.</p>
+                    <button>Quiero receta</button>
+                </div>
+                <div class="carta">
+                    <h3>Postre de Limón</h3>
+                    <p>La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón. Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue.</p>
+                    <button>Quiero receta</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mis-hobbies">
+        <div class="container">
+            <h2>Mis Hobbies</h2>
+            <ul>
+                <li>✔️​ Compartir con mi familia y amigos</li>
+                <li>✔️​ Bailar</li>
+                <li>✔️​ Viajar</li>
+                <li>✔️​ Caminar y disfrutar del aire libre</li>
+                <li>✔️​ Ir a cine</li>
+                <li>✔️​ Ir a nuevos restaruantes o cafés</li>
+                <li>✔️​ Jugar con mis sobrinitos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3>¡Compartamos conocimiento!</h3>
+        <div class="boton-modal">
+            <label for="btn-modal">
+                Participar
+            </label>
+        </div>
+
+        <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <h3>Bienvenid@</h3>
+                <p>Diligencia el formulario si estas interesad@ en participar en proyectos para practicar HMTL, CSS, Java, entre otros</p>
+
+                <form>
+                    <label for="name">Nombre</label>
+                    <input class="controls" id="nombre" placeholder="Ingresa tu nombre" required />
+                    <br />
+                    <label for="lastname">Apellido</label>
+                    <input class="controls" type="text" id="apellido" placeholder="Ingresa tu apellido" required />
+                    <br />
+                    <label
+                      >Correo electrónico
+                      <input class="controls" type="email" id="email" placeholder="Ingresa tu email" required />
+                    </label>
+                    <br />
+                    <label
+                      >Número de contacto
+                      <input class="controls" type="tel" id="phone" placeholder="Ingresa No. de contacto" required />
+                    </label>
+                    <br />
+                    <label
+                      >¿Que opinas de la iniciativa?
+                      <input class="controls" type="text" id="texto" placeholder="Queremos saber tu opinión" />
+                    </label>
+                    <br />
+                    <input class="boton" type="submit" value="Quiero participar" />
+                  </form>
+
+                <div class="btn-cerrar">
+                    <label for="btn-modal">Cerrar</label>
+                </div>
+            </div>
+            <label for="btn-modal" class="cerrar-modal"></label>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Angelica Bohorquez Rozo</p>
+        </div>
+       
+    </footer>
+</body>
+</html>
